@@ -2,7 +2,7 @@
 <html>
   <body>
     <h1>Today</h1>
-    <% date = Date.today.strftime("%A") %>
+    <% day = Date.today.strftime("%A") %>
     <% month_day = Date.today.strftime("%B %d") %>
     <% year = Date.today.strftime("%Y") %>
     <p><%= "The date is #{date}, #{month_day}, #{year}" %></p>
